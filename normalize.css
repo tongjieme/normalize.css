@@ -209,6 +209,12 @@ textarea {
   /* 3 */
 }
 /**
+ * fix text overflow in some version of chrome
+ */
+input[type=text] {
+  overflow: hidden;
+}
+/**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
 button {
